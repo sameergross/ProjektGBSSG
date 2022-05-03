@@ -1,0 +1,38 @@
+.topnav{
+    background-color: lavender;
+    height: 6vh;
+    float: left;
+    width: 100%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top: -3vh;
+    text-align: center;
+
+}
+
+.topnav a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    text-align: center;
+}
+
+.topnav a:active{
+    
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
