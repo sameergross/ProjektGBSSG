@@ -36,3 +36,10 @@ body{
     margin: 0;
     text-align: center;
 }
+
+.footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+}
