@@ -1,11 +1,10 @@
 .topnav{
     background-color: lavender;
-    height: 6vh;
+    height: 5vh;
     float: left;
     width: 100%;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    margin-top: -3vh;
     text-align: center;
 
 }
@@ -20,7 +19,7 @@
     text-align: center;
 }
 
-.topnav a:active{
+.topnav a.active{
     
     background-color: blue;
     color: white;
@@ -38,8 +37,25 @@ body{
 }
 
 .footer{
-    float: left;
+    float: center;
     width: 100%;
     text-align: center;
-    height: 6vh;
+    height: 10vh;
+    padding-top: 2%;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+.content{
+    height: 79vh;
+    background-color: whitesmoke;
+    float: left;
+    width: 100%;
+   
+}
+
+.footer-item{
+    grid-column: auto;
+}
+
