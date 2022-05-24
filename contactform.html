@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <div class="topnav">
@@ -13,23 +14,38 @@
         <a href="abbildung.html">Abbildungen</a>
         <a href="tabellen.html">Tabellen</a>
         <a href="quellen.html">Quellen</a>
-        <a class="active" href="contactform.html">Kontakt</a>
+        <a id="active" href="contactform.html">Kontakt</a>
+     
     </div>
 
     <div class="content">
         <h1>Kontakt</h1>
-        <p>Aufgaben inetue jaun!</p>
+        <form method="get" action="thanks.html" class="form-kontakt">
+          <input class="input-formkontakt" type="text" placeholder="firstname"><br>
+          <input class="input-formkontakt" type="text" placeholder="lastname"><br>
+          <select class="select-formkontakt" name="genders" >
+            <option value="" disabled selected hidden>select gender</option>
+            <option value="volvo">male </option>
+            <option value="saab">female</option>
+            <option value="opel">other</option>
+          </select><br>
+          <input class="input-formkontakt" type="text" placeholder="email"><br>
+          <textarea class="textarea-formkontakt"  rows="7.5" placeholder="what would you like to comunicate?"></textarea><br>
+          <button class="button-fromkontakt"type="submit">submit</button>
+        </form>
     </div>
+
     
     <div class="footer">
           <div class="footer-item">
             <p>Autor: Sameer Gross</p>
           </div>
           <div class="footer-item">
-            <p>Datum & Version</p>  
+            <p><span id="date"></span> Version: 1.0</p>  
+            <script src="main.js"></script>
           </div>
           <div class="footer-item">
-            <p>Status Aktiv</p>  
+            <p>Status: Aktiv</p>  
           </div>
     </div>
     

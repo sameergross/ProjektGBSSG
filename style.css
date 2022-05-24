@@ -1,31 +1,41 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
 .topnav{
     background-color: lavender;
-    height: 5vh;
+    height: 8vh;
+   
     float: left;
     width: 100%;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+  
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
 
 }
 
 .topnav a{
     color: black;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 2vh;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
     text-align: center;
+    
+   
+    
 }
 
-.topnav a.active{
+.topnav a#active{
     
-    background-color: blue;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
     text-align: center;
@@ -48,10 +58,14 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .content{
-    height: 79vh;
+    height: 82vh;
     background-color: whitesmoke;
     float: left;
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
    
 }
 
@@ -59,3 +73,69 @@ body{
     grid-column: auto;
 }
 
+.form-kontakt {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+.input-formkontakt {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2vh;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 1vh;
+    border: none;
+    text-align: left;
+    
+    
+}
+
+.select-formkontakt {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2vh;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 1vh;
+    border: none;
+    text-align: left;
+    color: grey;
+    
+
+
+    
+}
+.textarea-formkontakt {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 1vh;
+    border: none;
+
+}
+
+.button-fromkontakt {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 2vh;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 1vh;
+    border: none;
+
+
+}
+.thanks a{
+    text-decoration: none;
+    color: black;
+}
