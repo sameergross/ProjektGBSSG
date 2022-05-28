@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-item menusearch">
+          <input type="text" id="search" placeholder="search">
+        </div>
+        <div class="menu-item menuimg">
+          <img src="img/menu.png" alt="hamburgermenuimg" id="hamimg" onclick="handleclose()">
+        </div>
+      </div>
+    <div class="topnav">
+        <div class="topnav-item" >
+          <a href="index.html">Inhalt</a>
+        </div>
+        <div class="topnav-item" >
+          <a href="abbildung.html">Abbildungen</a>
+        </div>
+        <div class="topnav-item" >
+          <a href="tabellen.html">Tabellen</a>
+        </div>
+        <div class="topnav-item" id="roundedleft">
+          <a href="quellen.html">Quellen</a>
+        </div>
+        <div class="topnav-item" id="active-farright">
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+      <div id="activemenu">
+        <div class="dropdownmenu">
+          <div class="dropdownmenu-item">
+            <li>
+              <a href="index.html">Inhalt</a>
+            </li>
+          </div>
+          <div class="dropdownmenu-item">
+            <li>
+              <a href="abbildung.html">Abbildungen</a>
+            </li>
+          </div>
+          <div class="dropdownmenu-item">
+            <li>
+              <a href="tabellen.html">Tabellen</a>
+            </li>
+          </div>
+          <div class="dropdownmenu-item">
+            <li>
+              <a href="quellen.html">Quellen</a>
+            </li>
+          </div>
+          <div class="dropdownmenu-item">
+            <li>
+               <a href="impressum.html">Impressum</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    <div class="content">
+        <h1>Impressum</h1>
+        <div class="impressum">
+            <div class="impressum-item">
+                <p>Name: Sameer Gross</p>
+            </div>
+            <div class="impressum-item">
+                <p>E-Mail: sameergross@gmail.com</p>
+            </div>
+            <div class="impressum-item">
+                <p>Postfach: Aadorf 8355. Kirchplatz 5</p>
+            </div>
+            <div class="impressum-item">
+                <p>Name: Sameer Gross</p>
+            </div>
+            <div class="impressum-item">
+                <a href="contactform.html">
+                    <input type="submit" value="kontakt">
+                </a>
+            </div>
+            
+
+        </div>
+        
+    
+
+    </div>
+    
+    <div class="footer">
+       
+          <div class="footer-item">
+            <p>Autor: Sameer Gross</p>
+          </div>
+          <div class="footer-item">
+            <p><span id="date"></span> Version: 1.0</p>   
+            <script src="main.js"></script>
+          </div>
+          <div class="footer-item">
+            <p>Status: Aktiv</p>  
+          </div>
+          <div class="footer-item">
+            <a href="impressum.html">
+              <p>Impressum</p>
+            </a>
+          </div>
+       
+    </div>
+    
+</body>
+</html>

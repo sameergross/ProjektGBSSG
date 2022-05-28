@@ -8,18 +8,90 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topnav">
-        <a id="active" href="index.html">Inhalt</a>
-        <a href="abbildung.html">Abbildungen</a>
-        <a href="tabellen.html">Tabellen</a>
-        <a href="quellen.html">Quellen</a>
-        <a href="contactform.html">Kontakt</a>
+  <div class="menu">
+    <div class="menu-item menusearch">
+      <input type="text" id="search" placeholder="search">
     </div>
-    <div class="content">
-        <h1>Inhalt</h1>
-        <p>Inhalt inetue jaun!</p>
-
+    <div class="menu-item menuimg">
+      <img src="img/menu.png" alt="hamburgermenuimg" id="hamimg" onclick="handleclose()">
     </div>
+  </div>
+  <div class="topnav">
+    <div class="topnav-item" id="active-farleft">
+      <a href="index.html">Inhalt</a>
+    </div>
+    <div class="topnav-item" id="roundedright">
+      <a href="abbildung.html">Abbildungen</a>
+    </div>
+    <div class="topnav-item"  >
+      <a href="tabellen.html">Tabellen</a>
+    </div>
+    <div class="topnav-item" >
+      <a href="quellen.html">Quellen</a>
+    </div>
+    <div class="topnav-item">
+      <a href="contactform.html">Kontakt</a>
+    </div>
+  </div>
+  <div id="activemenu">
+    <div class="dropdownmenu">
+      <div class="dropdownmenu-item">
+        <li>
+          <a href="index.html">Inhalt</a>
+        </li>
+      </div>
+      <div class="dropdownmenu-item">
+        <li>
+          <a href="abbildung.html">Abbildungen</a>
+        </li>
+      </div>
+      <div class="dropdownmenu-item">
+        <li>
+          <a href="tabellen.html">Tabellen</a>
+        </li>
+      </div>
+      <div class="dropdownmenu-item">
+        <li>
+          <a href="quellen.html">Quellen</a>
+        </li>
+      </div>
+      <div class="dropdownmenu-item">
+        <li>
+          <a href="contactform.html">Kontakt</a>
+        </li>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h1>Inhalt</h1>
+      <div class="aufgabendiv">
+        <div class="aufgabencontent"> 
+          <div class="aufgabencontent-title">
+            <h2>Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
+          </div>
+          <div class="aufgabencontent-text">
+            <table>
+              <tr>
+                  <td class="aufgabetd">Aufgabe 1</td>
+                  <td class="contenttd">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptate ea exercitationem perferendis magni quaerat. Quod, at? Sed aspernatur quaerat amet fuga beatae dolorem maxime aliquam dicta fugiat soluta deleniti quos, dignissimos, porro odio tempore. Similique cumque reprehenderit recusandae delectus laborum voluptate. Doloremque enim aut veniam voluptate minima quos atque.
+                  </td>
+                  
+              </tr>
+              <tr>
+                  <td class="aufgabetd">Aufgabe 2</td>
+                  
+                  
+              </tr>
+              <tr>
+                <td class="aufgabetd">Aufgabe 3</td>
+                
+              </tr>
+            </table>
+        </div>
+      </div>
+  </div>
     
     <div class="footer">
        
@@ -32,6 +104,11 @@
           </div>
           <div class="footer-item">
             <p>Status: Aktiv</p>  
+          </div>
+          <div class="footer-item">
+            <a href="impressum.html">
+              <p>Impressum</p>
+            </a>
           </div>
        
     </div>

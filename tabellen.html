@@ -8,15 +8,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="menu">
+    <div class="menu-item menusearch">
+      <input type="text" id="search" placeholder="search">
+    </div>
+    <div class="menu-item menuimg">
+      <img src="img/menu.png" alt="hamburgermenuimg" id="hamimg" onclick="handleclose()">
+    </div>
+  </div>
     <div class="topnav">
+      <div class="topnav-item">
         <a href="index.html">Inhalt</a>
+      </div>
+      <div class="topnav-item" id="roundedleft">
         <a href="abbildung.html">Abbildungen</a>
-        <a id="active" href="tabellen.html">Tabellen</a>
+      </div>
+      <div class="topnav-item" id="active" >
+        <a href="tabellen.html">Tabellen</a>
+      </div>
+      <div class="topnav-item" id="roundedright">
         <a href="quellen.html">Quellen</a>
+      </div>
+      <div class="topnav-item">
         <a href="contactform.html">Kontakt</a>
+      </div>
+    </div>
+    <div id="activemenu">
+      <div class="dropdownmenu">
+        <div class="dropdownmenu-item">
+          <li>
+            <a href="index.html">Inhalt</a>
+          </li>
+        </div>
+        <div class="dropdownmenu-item">
+          <li>
+            <a href="abbildung.html">Abbildungen</a>
+          </li>
+        </div>
+        <div class="dropdownmenu-item">
+          <li>
+            <a href="tabellen.html">Tabellen</a>
+          </li>
+        </div>
+        <div class="dropdownmenu-item">
+          <li>
+            <a href="quellen.html">Quellen</a>
+          </li>
+        </div>
+        <div class="dropdownmenu-item">
+          <li>
+            <a href="contactform.html">Kontakt</a>
+          </li>
+        </div>
+      </div>
     </div>
     <div class="content">
-        <h1>Tabenllen</h1>
+        <h1>Tabellen</h1>
         <p>Tabenllen inetue jaun!</p>
 
     </div>
@@ -32,6 +79,11 @@
           </div>
           <div class="footer-item">
             <p>Status: Aktiv</p>  
+          </div>
+          <div class="footer-item">
+            <a href="impressum.html">
+              <p>Impressum</p>
+            </a>
           </div>
        
     </div>
