@@ -6,12 +6,9 @@ body {
 }
 
 .topnav{
-    
     height: 6vh;
-   
     float: left;
     width: 100%;
-  
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -112,6 +109,11 @@ body {
     .form-kontakt button {
         width: 50vw;  
     } 
+    .aufgabendiv {
+        width: 90vw !important;
+    }
+    
+    
 }
 
 
@@ -128,35 +130,56 @@ body {
     .form-kontakt button {
         width: 50vw;  
     }
+    .aufgabendiv {
+        width: 80vw;
+    }
+    
 
 }
 @media (min-width: 800px) {
     .footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-height: 5vw;
-        
-        
+        max-height: 5vw; 
     }
     .content {
         margin-top: 8vh;
     }
+    #activemenu {
+        display: none !important;
+    }
+    .menu {
+        display: none !important;
+    }
+    
+
 }
 
+@media (max-width: 500px) {
+    .form-kontakt input {
+        width: 70vw;  
+    }
+    .form-kontakt select {
+        width: 70vw;  
+    }
+    .form-kontakt textarea {
+        width: 70vw;  
+    }
+    .form-kontakt button {
+        width: 70vw;  
+    }
+    
+}
 .menu {
-    height: 8vh;
-    float: left;
+    height: 8.8vh;
     width: 100%;
     text-align: right;
-    top: 0;
     position: fixed;
     background-color: lavender;
     display: grid;
     grid-template-columns:  1fr 3fr 1fr;
     justify-content: center;
+    top: 0;
     
-    
-    
-   
 }
 
 #search {
@@ -177,12 +200,11 @@ body {
     text-align: center;
     padding-left: 5vw;
     padding-right: 5vw;
+    
 }
 
 .menu-item #hamimg{
     height: 5vh;
-  
-
 
 }
 
@@ -196,12 +218,6 @@ body {
     grid-column: 2;
     align-self: center;
 }
-
-
-
-
-
-
 
 .topnav-item#roundedright{
     border-radius: 0px 0px 0px 15px;
@@ -219,20 +235,21 @@ body{
     
     width: 100%;
     text-align: center;
-    
-    min-height: 6vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: white;
-    
-    
+    bottom: 0;
 }
 
-
+.footer-item {
+    height: 5vh;
+    
+}
 
 .footer p , .footer a{
     color: black;
     text-decoration: none;
+    
 }
 .content{
     min-height: 88vh;
@@ -241,48 +258,74 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 8vh;
     align-items: center;
-    
+    margin-top: 8.8vh; 
    
 }
 
+
+
 .aufgabendiv{
-    margin-top: 5%;
+    
     margin-bottom: 5%;
-    height: 75vh;
-    width: 70vw;
+    
+    width: 70%;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    background-color: black;
+       
 }
 
-.aufgabencontent {
-    width: 92.5%;
-    min-height: 92.5;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-   
-   
-    
-   
-}
+/* .aufgabendiv #aufgabe2{
+    display: none;
 
-.aufgabencontent-title {
-    height: auto;
+       
+} */
+
+.aufgabencontent-slidebutton {
+    height: 10%;
     width: 100%;
     background-color:lavender ;
     text-align: center;
     border-radius: 25px 25px 0px 0px;
+    margin-top: 1%;
+    
+
+    
+}
+
+.aufgabencontent {
+    width: 95%;
+    min-height: 72.5vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#aufgabe2 {
+    display: none;
+}
+
+.aufgabencontent-title {
+    height: 15%;
+    width: 100%;
+    background-color:lavender ;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+   
     
 }
 
 .aufgabencontent-text {
-    height: auto;
+    height: 75%;
     width: 100%;
     background-color: white;
     border-radius: 0px 0px 25px 25px;
@@ -290,6 +333,7 @@ body{
     flex-direction: column;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 1%;
     
 }
 
@@ -432,14 +476,14 @@ body{
 
 #activemenu {
     width: 100%;
-    
-    text-align: left;
+    text-align: center;
     background-color: lavender;
-    
-    display: none;
-    
     position: fixed;
-    padding-bottom: 3vh;
+
+    padding-bottom: 2.5%;
+    top: 8.8vh;
+    
+    
     
 }
 
@@ -456,5 +500,5 @@ body{
 .dropdownmenu-item a{
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
