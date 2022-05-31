@@ -109,9 +109,7 @@ body {
     .form-kontakt button {
         width: 50vw;  
     } 
-    .aufgabendiv {
-        width: 90vw !important;
-    }
+  
     
     
 }
@@ -167,6 +165,7 @@ body {
     .form-kontakt button {
         width: 70vw;  
     }
+
     
 }
 .menu {
@@ -269,12 +268,16 @@ body{
     
     margin-bottom: 5%;
     
-    width: 70%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
     border-radius: 25px;
-    display: flex;
+    display: grid;
     justify-content: center;
-    flex-direction: column;
-    background-color: black;
+    
+    grid-template-columns: 1fr 10fr 1fr;
+    /* background-color: black; */
        
 }
 
@@ -283,21 +286,48 @@ body{
 
        
 } */
+.aufgabencontent-swiththeme {
+    width: 100%;
+    background-color: yellow;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+}
 
 .aufgabencontent-slidebutton {
     height: 10%;
     width: 100%;
     background-color:lavender ;
     text-align: center;
-    border-radius: 25px 25px 0px 0px;
-    margin-top: 1%;
-    
-
+    justify-content: center;
+    border-radius: 0px 0px 25px 25px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
     
 }
 
+.arrowsforthemediv {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    justify-content: center;
+    
+    
+    width: 80%;
+}
+
+.aufgabencontent-slidebutton button {
+    width: 50%;
+    justify-self: center;
+    text-align: center;
+
+}
+
+.aufgabencontent-title img {
+    align-self: center;
+}
+
 .aufgabencontent {
-    width: 95%;
+    width: 100%;
     min-height: 72.5vh;
     
     display: flex;
@@ -305,11 +335,108 @@ body{
     align-self: center;
     margin-top: 1%;
     margin-bottom: 1%;
+    grid-column: 2;
+    justify-content: center;
+    
+}
+
+#aufgabe1 {
+    display: block;
 }
 
 #aufgabe2 {
     display: none;
 }
+
+#aufgabe3 {
+    display: none;
+}
+
+#aufgabe4 {
+    display: block;
+}
+
+#aufgabe5 {
+    display: none;
+}
+
+#aufgabe6 {
+    display: none;
+}
+
+#aufgabe7 {
+    display: block;
+}
+
+#aufgabe8 {
+    display: none;
+}
+
+#aufgabe9 {
+    display: block;
+}
+
+#aufgabe10 {
+    display: none;
+}
+
+#aufgabe11 {
+    display: block;
+}
+
+#aufgabe12 {
+    display: none;
+}
+
+#aufgabe13 {
+    display: block;
+}
+
+#aufgabe14 {
+    display: none;
+}
+
+#organisation {
+    display: block;
+}
+
+#projekt {
+    display: none;
+}
+
+#iperka {
+    display: none;
+}
+
+#informationsbeschaffung {
+    display: none;
+}
+
+#planung {
+    display: none;
+}
+
+#vortrag {
+    display: none;
+}
+
+
+
+.arrowicons {
+    height: 2vh;
+    justify-self: center;
+}
+
+.arrowsforthemediv #arrowlefttheme {
+    grid-column: 1;
+    align-self: center;
+}
+
+.arrowsforthemediv #arrowrighttheme {
+    grid-column: 3;
+    align-self: center;
+}
+
 
 .aufgabencontent-title {
     height: 15%;
@@ -319,21 +446,23 @@ body{
     border-radius: 25px 25px 0px 0px;
     margin-top: 1%;
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    justify-content: center;
    
     
 }
 
 .aufgabencontent-text {
-    height: 75%;
+    height: 85%;
     width: 100%;
     background-color: white;
-    border-radius: 0px 0px 25px 25px;
+    
     display: flex;
     flex-direction: column;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-bottom: 1%;
+    border-radius: 0px 0px 25px 25px;
+    
     
 }
 
