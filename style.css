@@ -238,6 +238,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: white;
     bottom: 0;
+    height: 5vh;
 }
 
 .footer-item {
@@ -286,6 +287,7 @@ body{
 
        
 } */
+
 .aufgabencontent-swiththeme {
     width: 100%;
     background-color: yellow;
@@ -310,9 +312,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     justify-content: center;
-    
-    
     width: 80%;
+    
 }
 
 .aufgabencontent-slidebutton button {
@@ -324,6 +325,7 @@ body{
 
 .aufgabencontent-title img {
     align-self: center;
+    
 }
 
 .aufgabencontent {
@@ -337,6 +339,8 @@ body{
     margin-bottom: 1%;
     grid-column: 2;
     justify-content: center;
+    
+    
     
 }
 
@@ -425,17 +429,27 @@ body{
 .arrowicons {
     height: 2vh;
     justify-self: center;
+    transition: all 0.5s ease;
+    
+}
+
+.arrowicons:hover {
+    height: 3vh;
+    justify-self: center;
 }
 
 .arrowsforthemediv #arrowlefttheme {
     grid-column: 1;
     align-self: center;
+    transition: background-color 2s ease-out;
 }
 
 .arrowsforthemediv #arrowrighttheme {
     grid-column: 3;
     align-self: center;
+    transition: all 0.5s ease;
 }
+
 
 
 .aufgabencontent-title {
@@ -594,8 +608,15 @@ body{
     width: 25vw;
     margin: 1vh;
     border: none;
+    transition: all 1s ease;
 
 
+}
+
+.button-fromkontakt:hover {
+    background-color: white;
+    
+    
 }
 .thanks a{
     text-decoration: none;

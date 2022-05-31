@@ -65,7 +65,7 @@
   
   <div class="content">
     <div class="arrowsforthemediv">
-      <img src="img/arrowleft.png" alt="arrowlefttheme" class="arrowicons" id="arrowlefttheme">
+      <img src="img/arrowleft.png" alt="arrowlefttheme" class="arrowicons" id="arrowlefttheme" onclick="swiththemeback()">
  
       <div class="aufgabendiv" id="organisation">
         
@@ -74,7 +74,7 @@
             <h1>Organisation</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_organisation()">
               <h2>A1 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
               <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_organisation()">
             </div>
@@ -92,34 +92,13 @@
                 <tr>
                   <td class="aufgabetd">Aufgabe 3</td>
                 </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
-                <tr>
-                  <td class="aufgabetd">Aufgabe 3</td>
-                </tr>
               </table>
             </div>
           </div>
           <div class="aufgabencontent" id="aufgabe2">
             <h1>Organisation</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_organisation()">
               <h2>A2 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
               <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_organisation()">
             </div>
@@ -143,7 +122,7 @@
           <div class="aufgabencontent" id="aufgabe3"> 
             <h1>Organisation</h1>
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_organisation()">
               <h2>A3 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
               <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_organisation()">
             </div>
@@ -174,9 +153,9 @@
             <h1>Projekt</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_projekt()">
               <h2>A4 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_projekt()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -198,9 +177,9 @@
           <div class="aufgabencontent" id="aufgabe5">
             <h1>Projekt</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_projekt()">
               <h2>A5 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_projekt()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -222,9 +201,9 @@
           <div class="aufgabencontent" id="aufgabe6"> 
             <h1>Projekt</h1>
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_projekt()">
               <h2>A6 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_projekt()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -253,9 +232,9 @@
             <h1>IPERKA</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_iperka()">
               <h2>A7 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_iperka()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -277,9 +256,9 @@
           <div class="aufgabencontent" id="aufgabe8">
             <h1>IPERKA</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_iperka()">
               <h2>A8 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_iperka()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -308,9 +287,9 @@
             <h1>Informationsbeschaffung</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_informationsbeschaffung()">
               <h2>A9 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_informationsbeschaffung()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -332,9 +311,9 @@
           <div class="aufgabencontent" id="aufgabe10">
             <h1>Informationsbeschaffung</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_informationsbeschaffung()">
               <h2>A10 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_informationsbeschaffung()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -363,9 +342,9 @@
             <h1>Planung</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_planung()">
               <h2>A11 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_planung()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -387,9 +366,9 @@
           <div class="aufgabencontent" id="aufgabe12">
             <h1>Planung</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_planung()">
               <h2>A12 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_planung()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -418,9 +397,9 @@
             <h1>Vortrag</h1>
             
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" onclick="switchaufgabeback_vortrag()">
               <h2>A13 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" onclick="switchaufgabenext_vortrag()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -442,9 +421,9 @@
           <div class="aufgabencontent" id="aufgabe14">
             <h1>Vortrag</h1> 
             <div class="aufgabencontent-title">
-              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft">
+              <img src="img/arrowleft.png" class="arrowicons" id="arrowleft" alt="arrowleft" onclick="switchaufgabeback_vortrag()"> 
               <h2>A14 | Aufgaben und Aufträge in ihrem Lehrbetrieb</h2>
-              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext()">
+              <img src="img/arrowright.png" class="arrowicons" id="arrowright" alt="arrowright" onclick="switchaufgabenext_vortrag()">
             </div>
             <div class="aufgabencontent-text">
               <table>
@@ -467,7 +446,7 @@
         
       </div>
 
-      <img src="img/arrowright.png" alt="arrowrighttheme" class="arrowicons" id="arrowrighttheme" onclick="swiththeme()">
+      <img src="img/arrowright.png" alt="arrowrighttheme" class="arrowicons" id="arrowrighttheme" onclick="swiththemenext()">
     </div> 
     
   </div>
