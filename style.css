@@ -128,9 +128,13 @@ body {
     .form-kontakt button {
         width: 50vw;  
     }
-    .aufgabendiv {
-        width: 80vw;
+    .arrowsforthemediv {
+        grid-template-columns: 1fr 20fr 1fr;
+        
     }
+    
+    
+        
     
 
 }
@@ -168,6 +172,9 @@ body {
 
     
 }
+
+
+
 .menu {
     height: 8.8vh;
     width: 100%;
@@ -269,15 +276,15 @@ body{
     
     margin-bottom: 5%;
     
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    align-self: center;
+   
     
     border-radius: 25px;
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     
-    grid-template-columns: 1fr 10fr 1fr;
+    
     /* background-color: black; */
        
 }
@@ -289,7 +296,7 @@ body{
 } */
 
 .aufgabencontent-swiththeme {
-    width: 100%;
+    width: 80%;
     background-color: yellow;
     height: 90vw;
     display: flex;
@@ -312,7 +319,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     
 }
 
@@ -345,11 +352,11 @@ body{
 }
 
 #aufgabe1 {
-    display: block;
+    display: none;
 }
 
 #aufgabe2 {
-    display: none;
+    display: block;
 }
 
 #aufgabe3 {
@@ -473,9 +480,9 @@ body{
     
     display: flex;
     flex-direction: column;
-    padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 0px 0px 25px 25px;
+    text-align: left;
     
     
 }
@@ -483,7 +490,8 @@ body{
 .aufgabencontent-text p {
     text-align: left;
     padding-left: 5%;
-    font-weight: bold;
+    
+    
 }
 
 .aufgabencontent-text table{
@@ -497,20 +505,37 @@ body{
  
 }
 
+.aufgabencontent-text img {
+    width: 85%;
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
 
 
 .aufgabencontent-text td {
     border: 1.5px solid whitesmoke;
     padding-top: 2%;
     padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
   
 }
 
-.aufgabetd {
-    width: 20%;
+
+.aufgabencontent-text b {
+    padding-right: 1rem;
 }
+.aufgabetd {
+    width: auto;
+    
+}
+
 .contenttd {
-    width: 80%;
+    width: auto;
+    
 }
 
 
