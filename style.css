@@ -109,7 +109,12 @@ body {
     .form-kontakt button {
         width: 50vw;  
     } 
-  
+    .aufgabetd {
+        width: 20vw;
+    }
+    .gallery {
+        width: 100vw;
+    }
     
     
 }
@@ -134,14 +139,31 @@ body {
     }
     
     
+    
         
     
 
 }
+
+
+@media (min-width: 500px) {
+   
+    .aufgabencontent-text td ,p{
+        font-size: 1.25rem;
+    }
+    .aufgabetd {
+        width: 10vw;
+    }
+
+}
+
+
+
+
 @media (min-width: 800px) {
     .footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-height: 5vw; 
+        max-height: 6vw; 
     }
     .content {
         margin-top: 8vh;
@@ -151,6 +173,9 @@ body {
     }
     .menu {
         display: none !important;
+    }
+    .gallery {
+        width: 60vw;
     }
     
 
@@ -169,6 +194,12 @@ body {
     .form-kontakt button {
         width: 70vw;  
     }
+    .arrowsforthemediv {
+        width: 100vw;
+        
+        
+    }
+
 
     
 }
@@ -245,7 +276,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: white;
     bottom: 0;
-    height: 5vh;
+    height: 20vh;
 }
 
 .footer-item {
@@ -268,6 +299,11 @@ body{
     align-items: center;
     margin-top: 8.8vh; 
    
+}
+
+.quellen {
+    width: 80%;
+    margin-bottom: 5%;
 }
 
 
@@ -317,7 +353,7 @@ body{
 
 .arrowsforthemediv {
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 1fr 20fr 1fr;
     justify-content: center;
     width: 100%;
     
@@ -350,6 +386,18 @@ body{
     
     
 }
+
+
+
+.gallery img {
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
 
 #aufgabe1 {
     display: block;
@@ -408,7 +456,7 @@ body{
 }
 
 #organisation {
-    display: none;
+    display: block;
 }
 
 #projekt {
@@ -428,7 +476,7 @@ body{
 }
 
 #vortrag {
-    display: block;
+    display: none;
 }
 
 
@@ -483,6 +531,7 @@ body{
     padding-bottom: 5%;
     border-radius: 0px 0px 25px 25px;
     text-align: left;
+    font-size: 0.5rem;
     
     
 }
@@ -533,12 +582,12 @@ body{
     padding-right: 1rem;
 }
 .aufgabetd {
-    width: auto;
+    width: 10vw;
     
 }
 
 .contenttd {
-    width: auto;
+    width: 45vw;
     
 }
 
@@ -679,5 +728,5 @@ body{
 .dropdownmenu-item a{
     color: black;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 3rem;
 }
