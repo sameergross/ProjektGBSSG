@@ -396,6 +396,15 @@ body{
     margin-bottom: 1%;
 }
 
+.home img {
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
 
 
 
@@ -710,6 +719,7 @@ body{
 
     padding-bottom: 2.5%;
     top: 8.8vh;
+    display: none;
     
     
     
@@ -728,5 +738,5 @@ body{
 .dropdownmenu-item a{
     color: black;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
