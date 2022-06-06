@@ -352,7 +352,7 @@ body{
 }
 
 #aufgabe1 {
-    display: none;
+    display: block;
 }
 
 #aufgabe2 {
@@ -360,7 +360,7 @@ body{
 }
 
 #aufgabe3 {
-    display: block;
+    display: none;
 }
 
 #aufgabe4 {
@@ -408,7 +408,7 @@ body{
 }
 
 #organisation {
-    display: block;
+    display: none;
 }
 
 #projekt {
@@ -428,7 +428,7 @@ body{
 }
 
 #vortrag {
-    display: none;
+    display: block;
 }
 
 
