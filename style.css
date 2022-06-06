@@ -356,11 +356,11 @@ body{
 }
 
 #aufgabe2 {
-    display: block;
+    display: none;
 }
 
 #aufgabe3 {
-    display: none;
+    display: block;
 }
 
 #aufgabe4 {
@@ -492,6 +492,10 @@ body{
     padding-left: 5%;
     
     
+}
+
+.aufgabencontent-text a{
+    color: black;
 }
 
 .aufgabencontent-text table{
