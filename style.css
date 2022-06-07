@@ -138,6 +138,9 @@ body {
         grid-template-columns: 1fr 20fr 1fr;
         
     }
+    .footer {
+        padding-bottom: 1%;
+    }
   
 
 }
@@ -170,10 +173,12 @@ body {
 
 
 
+
+
 @media (min-width: 800px) {
     .footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-height: 7vw; 
+        max-height: 6vw; 
     }
     .content {
         margin-top: 8vh;
@@ -305,6 +310,7 @@ body{
     background-color: white;
     bottom: 0;
     height: 20vh;
+  
 }
 
 .footer-item {
