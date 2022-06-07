@@ -210,6 +210,22 @@ body {
         
         
     }
+    .quellen {
+        font-size: xx-small;
+        
+    }
+
+
+    
+}
+
+
+@media (max-width: 400px) {
+    .infobeschtitle {
+        font-size: smaller;
+    }
+
+
 
 
     
@@ -749,3 +765,4 @@ body{
     text-decoration: none;
     font-size: 1.5rem;
 }
+
